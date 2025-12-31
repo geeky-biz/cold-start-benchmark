@@ -1,0 +1,25 @@
+{
+  "name": "cold-start-benchmark",
+  "version": "1.0.0",
+  "description": "Automated cold-start performance benchmarking tool using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-browsers": "npx playwright install chromium --with-deps"
+  },
+  "keywords": [
+    "benchmark",
+    "cold-start",
+    "playwright",
+    "performance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
+
