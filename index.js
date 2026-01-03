@@ -6,7 +6,7 @@ const BASE_URLS = [
   'https://cold-start-check.vercel.app',
   'https://loquacious-yeot-3496da.netlify.app',
   'https://cold-start-check.punit-e52.workers.dev',
-  'http://159.203.80.39.punits.dev'
+  'https://cold-start-check.punits.dev'
 ]
 // Configuration
 const URLS = [
