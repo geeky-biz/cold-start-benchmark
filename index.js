@@ -6,7 +6,7 @@ const BASE_URLS = [
   'https://cold-start-check.vercel.app',
   'https://loquacious-yeot-3496da.netlify.app',
   'https://cold-start-check.punit-e52.workers.dev',
-  'https://cold-start-check.punits.dev'
+  'http://159.203.80.39.punits.dev'
 ]
 // Configuration
 const URLS = [
@@ -422,7 +422,7 @@ async function runBenchmark() {
   
   // Calculate elapsed time and wait until 60 minutes from iteration start
   const elapsedTime = Date.now() - iterationStartTime;
-  const remainingTime = RUN_INTERVAL - elapsedTime;
+  const remainingTime = RUN_INTERVAL ;
   
   console.log('='.repeat(60));
   console.log(`✨ Benchmark run completed at ${new Date().toISOString()}`);
