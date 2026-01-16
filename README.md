@@ -2,6 +2,8 @@
 
 Automated cold-start performance benchmarking tool that periodically tests web application cold-start behavior using Playwright.
 
+Created for the benchmarks run for [this blog post](https://punits.dev/blog/vercel-netlify-cloudflare-serverless-cold-starts/)
+
 ## Overview
 
 This tool visits a series of URLs in sequence, measures cold-start performance metrics, and logs the results to a CSV file. It runs automatically every hour and intelligently rotates through the URL list to ensure comprehensive testing coverage.
